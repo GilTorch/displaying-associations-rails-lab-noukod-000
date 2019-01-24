@@ -1,6 +1,5 @@
 class SongsController < ApplicationController
   def index
-    Artist.create!(name: "Daft Punk").songs.create!(title: "The Grid")
     @songs=Song.all
   end
 
